@@ -1,0 +1,12 @@
+{% if site.courses.size > 0 %}
+  <ul>
+    {% for course in site.courses %}
+    <li>
+      {% if course.placeholder %}{{ course.title }},
+      {% else %}<a href="{{ course.url | relative_url }}">{{ course.title }}</a>,
+      {% endif %}
+      {{ course.semester }}, {{ course.institute }}
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}

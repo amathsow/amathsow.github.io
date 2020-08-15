@@ -1,0 +1,72 @@
+---
+layout: base
+---
+<div class="col-md-12 mb-3 mb-sm-5">
+  <div class="card border-0">
+    <div class="row">
+      <div class="col-md-9 col-sm-8 order-last order-sm-first">
+        <div class="card-body pr-sm-4 pr-1 pl-0 pt-0 pb-3">
+          <h1 class="card-title">
+            {{ site.author.name }}
+          </h1>
+          <div class="card-text">
+            <p><a href="#" class="email-address"
+                  data-username="{{ site.author.email.username }}"
+                  data-domain="{{ site.author.email.domain }}"
+                  data-tld="{{ site.author.email.tld }}">
+            </a></p>
+            {% if site.author.bio %}{{ site.author.bio | markdownify }}{% else %}{% include author-bio.html %}{% endif %}
+
+            <p class="mb-0">
+              {% for social in site.author.social %}
+              {% if social.url %}
+              <a href="{{ social.url }}" target="_blank" class="btn btn-sm btn-primary mr-1 mb-2">
+                <i class="{% if social.icon %}{{ social.icon }}{% else %}fab fa-{{ social.name | downcase | replace: ' ', '-' }}{% endif %}"></i>
+                {{ social.name }}
+              </a>
+              {% endif %}
+              {% endfor %}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-4 mb-3 mb-sm-0 order-first order-sm-last">
+        <img src="{{ site.author.photo | relative_url }}" class="card-img img-thumbnail">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-12">
+  {{ content }}
+</div>
+
+{% assign featured_news=site.categories.news | where: "featured", true %}
+{% if featured_news.size > 0 %}
+<div class="col-md-12 mt-3">
+  <div class="card">
+    <h4 class="card-header text-white bg-primary">
+      <span class="float-left mt-1">News</span>
+      <a href="{{ '/news/' | relative_url }}" class="btn btn-light btn-sm float-right">All Updates</a>
+    </h4>
+    <div class="row no-gutters">
+    {% for post in featured_news limit:site.featured_news %}
+      <div class="col-sm">
+        <div class="card-body pb-1">
+          <h5 class="card-title">{{ post.date | date: "%B %d, %Y" }}</h5>
+          <div class="card-text">
+            {{ post.excerpt }}
+
+            {% if post.excerpt != post.content %}
+            <p class="mt-3">
+              <a href="{{ post.url | relative_url }}">Continue reading...</a>
+            </p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}

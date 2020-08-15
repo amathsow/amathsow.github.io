@@ -1,0 +1,131 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: The Intelligent Robot Learning Lab  # Site title (shown in browser tab header)
+description: ""  # Put a short description of your website here. It'll show on the Google search results.
+url: ""  # Complete URL of your website, e.g. https://username.github.io or https://username.com
+baseurl: ""  # If website is served from a subdirectory, put its name here with leading slash (e.g. /directory).
+ga_tracking_id: ""  # Google Analytics tracking ID
+show_header: false  # Whether to show a header on the top of all pages or not.
+
+# Author settings
+author:
+  name: "Awesome Person"
+  photo: "/assets/images/default.png"  # Put your portrait in /assets/images folder and set the filename here.
+  email:
+    username: example
+    domain: gmail
+    tld: com
+
+  # Your presence on social networks. For each filled entry, a button will be displayed on the homepage.
+  # Use your full profile URL for the following items.
+  # For example https://scholar.google.com/citations?user=SOMETHING&hl=en
+  social:
+    - name: Google Scholar
+      icon: fas fa-graduation-cap
+      url: "https://scholar.google.com/citations?user=SOMETHING&hl=en"
+    - name: BitBucket
+      url:
+    - name: Facebook
+      url:
+    - name: Github
+      url: "https://github.com/USERNAME"
+    - name: Instagram
+      url:
+    - name: LinkedIn
+      url: https://linkedin.com/in/USERNAME
+    - name: ORCID
+      url:
+    - name: ResearchGate
+      url:
+    - name: SoundCloud
+      url:
+    - name: Stack Overflow
+      url:
+    - name: Tumblr
+      url:
+    - name: Twitter
+      url:
+    - name: Weibo
+      url:
+    - name: XING
+      url:
+    - name: Youtube
+      url:
+
+# Content settings
+timezone: America/Edmonton  # Change it based on your location. Any entry from the IANA Time Zone Database is valid.
+featured_posts: 3  # Number of features news shown on the homepage.
+
+collections:
+  pages:
+    output: true
+    permalink: /:title/
+    order:  # Order of displaying pages in the header (matters only if header enabled)
+      - home.md
+      - news.md
+  courses:
+    output: true
+    permalink: /teaching/:title/
+
+logo: /assets/images/sponsors/irll.png
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/sponsors/irll.png
+
+# You DO NOT need to edit the following lines. Change them only if you KNOW what you're doing.
+
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      featured: true
+
+  - scope:
+      path: ""
+      type: "courses"
+    values:
+      layout: "default"
+      placeholder: false
+
+include:
+  - .htaccess
+
+exclude:
+  - .idea
+
+# Conversion
+excerpt_separator: <!--more-->
+highlighter: rouge
+lsi: false
+incremental: false
+
+sass:
+  style: compressed
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links

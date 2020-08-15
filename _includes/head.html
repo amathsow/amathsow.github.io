@@ -1,0 +1,27 @@
+<head>
+  <meta charset="utf-8">
+  {% seo %}
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/fontawesome.css" | relative_url }}">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/favicon/apple-touch-icon.png?v=pglAO89y0e" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon/favicon-32x32.png?v=pglAO89y0e | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon/favicon-16x16.png?v=pglAO89y0e | relative_url }}">
+  <link rel="mask-icon" href="{{ "/assets/favicon/safari-pinned-tab.svg?v=pglAO89y0e | relative_url }}" color="#5bbad5">
+  <link rel="shortcut icon" href="{{ "/favicon.ico?v=pglAO89y0e | relative_url }}">
+  <meta name="theme-color" content="#ffffff">
+
+{% if jekyll.environment == 'production' %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking_id }}"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.ga_tracking_id }}');
+  </script>
+  {% endif %}
+</head>
