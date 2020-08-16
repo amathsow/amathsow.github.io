@@ -10,9 +10,9 @@ Deep COACH is an improvement on the original COACH paper in order to learn high 
 ## I. Motivation
 Adjust COACH to making use of the higher dimensional data and solve the problem of sparsity
 
-## II. Upate Rules
+### II. Upate Rules
 
-### II.1 Policy Gradient
+   ##### II.1 Policy Gradient
 <p align="center">
   <img src="/assets/images/policy_gradient.png" width="350" title="hover text">
 </p>
