@@ -52,8 +52,8 @@ buffer where the atomic elements stored are whole windows of experience, rather 
  - mini-batch size m: 16
  - entropy regularization coefficient β: 1.5
  
- ### V. Results on Malmo Env
- - COACH: not enough generalization; get locked into a sub-optimal policy
- - Deep TAMER: demonstrate a certain degree of unstability
- - Deep COACH: the vast majority of trainer feedback consists of negative signals discouraging incorrect behavior at the start of learning whereas a relatively smaller number of positive signals are actually needed to guide the agent towards good behavior. (also needs less feedbacks)
+### V. Results on Malmo Env
+ - **COACH**: not enough generalization; get locked into a sub-optimal policy
+ - **Deep TAMER**: demonstrate a certain degree of unstability
+ - **Deep COACH**: the vast majority of trainer feedback consists of negative signals discouraging incorrect behavior at the start of learning whereas a relatively smaller number of positive signals are actually needed to guide the agent towards good behavior. (also needs less feedbacks)
 
