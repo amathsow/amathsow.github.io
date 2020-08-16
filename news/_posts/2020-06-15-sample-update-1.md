@@ -13,5 +13,8 @@ Adjust COACH to making use of the higher dimensional data and solve the problem 
 ## II. Upate Rules
 
 ### II.1 Policy Gradient
-photo: "/assets/images/policy_gradient.png"
+<p align="center">
+  <img src="/assets/images/policy_gradient.png" width="350" title="hover text">
+</p>
+
 
