@@ -16,7 +16,7 @@ show_header: false  # Whether to show a header on the top of all pages or not.
 # Author settings
 author:
   name: "Amath SOW"
-  photo: "/assets/images/default.png"  # Put your portrait in /assets/images folder and set the filename here.
+  photo: "/assets/images/amath.jpeg"  # Put your portrait in /assets/images folder and set the filename here.
   email:
     username: asow
     domain: aimsammi
