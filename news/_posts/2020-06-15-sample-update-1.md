@@ -19,4 +19,8 @@ Adjust COACH to making use of the higher dimensional data and solve the problem 
 
    ##### II.2 Eligibility traces with importance sampling
 
+<p align="center">
+  <img src="/assets/images/eligibility.png" width="350" title="hover text">
+</p>
+
 
