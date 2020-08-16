@@ -17,4 +17,6 @@ Adjust COACH to making use of the higher dimensional data and solve the problem 
   <img src="/assets/images/policy_gradient.png" width="350" title="hover text">
 </p>
 
+   ##### II.2 Eligibility traces with importance sampling
+
 
