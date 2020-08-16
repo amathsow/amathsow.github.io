@@ -12,12 +12,12 @@ Adjust COACH to making use of the higher dimensional data and solve the problem 
 
 ### II. Upate Rules
 
-   ##### II.1 Policy Gradient
+    II.1 Policy Gradient
 <p align="center">
   <img src="/assets/images/policy_gradient.png" width="350" title="hover text">
 </p>
 
-   ##### II.2 Eligibility traces with importance sampling
+    II.2 Eligibility traces with importance sampling
 
 <p align="center">
   <img src="/assets/images/eligibility.png" width="350" title="hover text">
