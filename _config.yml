@@ -15,7 +15,7 @@ show_header: false  # Whether to show a header on the top of all pages or not.
 
 # Author settings
 author:
-  name: "Awesome Person"
+  name: "Amath SOW"
   photo: "/assets/images/default.png"  # Put your portrait in /assets/images folder and set the filename here.
   email:
     username: example
@@ -34,11 +34,11 @@ author:
     - name: Facebook
       url:
     - name: Github
-      url: "https://github.com/USERNAME"
+      url: "https://github.com/amathsow"
     - name: Instagram
       url:
     - name: LinkedIn
-      url: https://linkedin.com/in/USERNAME
+      url: "https://www.linkedin.com/in/amath-sow-750a24113/"
     - name: ORCID
       url:
     - name: ResearchGate
@@ -50,7 +50,7 @@ author:
     - name: Tumblr
       url:
     - name: Twitter
-      url:
+      url:  "https://twitter.com/AmathSo36561819"
     - name: Weibo
       url:
     - name: XING
@@ -59,7 +59,7 @@ author:
       url:
 
 # Content settings
-timezone: America/Edmonton  # Change it based on your location. Any entry from the IANA Time Zone Database is valid.
+timezone: Ghana/Accra  # Change it based on your location. Any entry from the IANA Time Zone Database is valid.
 featured_posts: 3  # Number of features news shown on the homepage.
 
 collections:
