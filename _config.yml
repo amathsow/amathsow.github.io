@@ -18,9 +18,9 @@ author:
   name: "Amath SOW"
   photo: "/assets/images/default.png"  # Put your portrait in /assets/images folder and set the filename here.
   email:
-    username: example
-    domain: gmail
-    tld: com
+    username: asow
+    domain: aimsammi
+    tld: org
 
   # Your presence on social networks. For each filled entry, a button will be displayed on the homepage.
   # Use your full profile URL for the following items.
