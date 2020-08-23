@@ -20,7 +20,7 @@ _ Startup Acceleration at Nest'up (www.nestup.com) in Belgium
 
 _ vivatech prize Paris(www.vivatechnology.com/) and travel partnership with Orange Sillicon Valley
 
-Currently, I am doing a program at AMMI: African Master in Machine Intelligence sponsored by Google and Facebok and i'm mostly interested about Reinforcement Learning, autonomous navigation and multi agents system. As member of Intelligent Robot Learning(IRLab: Alberta), i'm working with  <a href="https://drmatttaylor.net/"> **Dr. Matt Taylor** </a>  on variance reduced gradient applied to convergent actor critic algorithm which is and HCLR where the human feedback is considered as a reward. The goal is to applyed to high dimensional observations and compare it to others algorithms (Deep Tamer, Deep COACH, etc).
+Currently, I am doing a program at AMMI: African Master in Machine Intelligence sponsored by Google and Facebok and i'm mostly interested about Reinforcement Learning, autonomous navigation and multi agents system. As member of Intelligent Robot Learning(IRLab: Alberta), i'm working with  <a href="https://drmatttaylor.net/"> **Dr. Matt Taylor** </a>  on variance reduced gradient applied to convergent actor critic algorithm which is a HCLR where the human feedback is considered as a reward. The goal is to applyed to high dimensional observations and compare it to others algorithms (Deep Tamer, Deep COACH, etc).
 
 ## Publications
 - Awesome Person. 2020. "How we can survive the global warming." Nature 149.
