@@ -67,8 +67,9 @@ For our experiments, we use the MountainCar-v0 environment provided by OpenAI gy
      - Proxy human Experiment
  To study the properties of vr-coach, we first performed experiments using simulated humans, which we refer to as proxy human experiments.We simulate two 
  different types of human feedback, i.e.,
- _ **Dense feedbacks** Give a positive feedback of +1 only if the action taken is along the current velocity ( i.e., right when the velocity is positive and left when it is negative); −1 otherwise.
- _ **Sparse feedbacks** Give zero feedback with probability 0.7, random feedback with probability 0.21 and dense feedback (as defined above) with probability 0.09.
+ 
+_ **Dense feedbacks** Give a positive feedback of +1 only if the action taken is along the current velocity ( i.e., right when the velocity is positive and left when it is negative); −1 otherwise.
+_ **Sparse feedbacks** Give zero feedback with probability 0.7, random feedback with probability 0.21 and dense feedback (as defined above) with probability 0.09.
  
      - Real human Experiment
 
