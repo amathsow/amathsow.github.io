@@ -10,13 +10,13 @@ description: > # try to keep it the same as _config.yml > description field, whi
 ---
 
 After graduated in Electronic and Telecommunications Engineering, I worked for 3 years part time  as a 3G and 4G radio engineer at Huawei
-Techologies. At the same time, I was involved in entrepreneurship, which allowed me to set up two startups in the field of health <a href="https://solve.mit.edu/challenges/work-of-the-future/solutions/5380"> karangue </a> and in agriculture  <a href="https://bayseddo.com/"> bayseddo </a>. During this entrepreneurial period I had won a lot of prizes:
+Techologies. At the same time, I was involved in entrepreneurship, which allowed me to set up two startups in the field of health <a href="https://solve.mit.edu/challenges/work-of-the-future/solutions/5380"> karangue </a> and in agriculture  <a href="https://bayseddo.com/"> Bayseddo </a>. During this entrepreneurial period I had won a lot of prizes:
 
 _ codecamp emerginov 2016
 
 _ Orange developper challenge 2017
 
-_ Startup Acceleration at Nest'up <a href="https://nestup.com.com/"> **Nest'up** </a>  in Belgium
+_ Startup Acceleration at <a href="https://nestup.com.com/"> **Nest'up** </a>  in Belgium
 
 _ <a href="https://vivatechnology.com/"> **vivatech** </a> prize Paris and travel partnership with Orange Sillicon Valley
 
@@ -26,7 +26,9 @@ Currently, I am doing a program at AMMI: African Master in Machine Intelligence 
 - Coming soon...
 
 ## Projects
-
+---
+title: Human in the Loop Reinforcement Learning framework
+---
 
 <!---
 ## Teaching
