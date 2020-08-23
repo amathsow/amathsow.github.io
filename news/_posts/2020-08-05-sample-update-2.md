@@ -36,3 +36,27 @@ _ And also the episodic update as :
   <img src="/assets/images/updaye.png" width="350" title="hover text">
 </p>
  
+_ Update computed in REINFORCE except that here we have the human feedback signal in place of the reward and λ in the place of discount factor.
+
+## II. VR-COACH
+
+_ Therefore,we arrive at a new interpretation of this episodic variant of real-time coach: that it is the classical reinforce algorithm where the human feedback signal is interpreted as the reward.
+_ we are interested in whether policy-gradient variance reduction techniques based on control variates are able to improve the learning speed and stability of coach in the HCRL setting. To do so, we propose a new HCRL technique called vr-coach.
+_ In vr-coach, we employ the full actor-critic method from the RL literature, and we interpret human feedback as the reward.
+
+## II. Update Rules
+
+_ The vr-coach actor update is given by :
+<p align="center">
+  <img src="/assets/images/actorupdate.png" width="350" title="hover text">
+</p>
+_ the critic update:
+<p align="center">
+  <img src="/assets/images/criticupdate.png" width="350" title="hover text">
+</p>
+_ Notice how the human feedback is directly fed to the actor in coach, while in vr-coach it passes through the critic. This means that in coach, the actor does not learn anything when there is no human feedback. In vr-coach, however, the actor can still learn from the critic even if the human is not providing feedback
+<p align="center">
+  <img src="/assets/images/a2c.png" width="350" title="hover text">
+</p>
+
+
