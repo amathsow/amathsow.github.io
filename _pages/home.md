@@ -29,7 +29,7 @@ Currently, I am doing a program at AMMI: African Master in Machine Intelligence 
 
 **Human in the Loop Reinforcement Learning Framework:** Jully 2020 - Now
 
-In Partnership with Intelligent Robot Learning Lab <a href="https://irll.ca/"> **IRLab** </a>  i'm working on Building a framework for Human in the Loop algorithm(HCLR) under the supervision of **Dr. Matt Taylor**: Tamer, COACH, Deep Tamer, Deep COACH,... 
+In Partnership with Intelligent Robot Learning Lab <a href="https://irll.ca/"> **IRLab** </a>  i'm working on Building a framework for Human in the Loop algorithm(HCLR) under the supervision of **Dr. Matt Taylor**: COACH,TAMER, Deep Tamer, Deep COACH,... 
 
 **Speech Recognition in Wolof:** June 2020 - Jully 2020
 
