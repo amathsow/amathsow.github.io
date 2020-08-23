@@ -23,8 +23,7 @@ _ vivatech prize Paris(www.vivatechnology.com/) and travel partnership with Oran
 Currently, I am doing a program at AMMI: African Master in Machine Intelligence sponsored by Google and Facebok and i'm mostly interested about Reinforcement Learning, autonomous navigation and multi agents system. As member of Intelligent Robot Learning(IRLab: Alberta), i'm working with  <a href="https://drmatttaylor.net/"> **Dr. Matt Taylor** </a>  on variance reduced gradient applied to convergent actor critic algorithm which is a HCLR where the human feedback is considered as a reward. The goal is to applyed to high dimensional observations and compare it to others algorithms (Deep Tamer, Deep COACH, etc).
 
 ## Publications
-- Awesome Person. 2020. "How we can survive the global warming." Nature 149.
-- Awesome Person and Company. 2019. "LIFE 101: Essential Skills for a successful life." Science 150.
+- Coming soon...
 
 ## Teaching
 If you're doing a lecture or a TAship, you may want to list your courses here. See the README file for more information. 
