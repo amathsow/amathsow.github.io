@@ -18,7 +18,7 @@ _ Orange developper challenge 2017
 
 _ Startup Acceleration at Nest'up (www.nestup.com) in Belgium
 
-_ vivatech prize Paris(https://vivatechnology.com/) and travel partnership with Orange Sillicon Valley
+_ vivatech prize Paris(www.vivatechnology.com/) and travel partnership with Orange Sillicon Valley
 
 Currently, I am specialized in artificial intelligence and i'm mostly interested about Reinforcement Learning, autonomous navigation and multi agents system. As member of Intelligent Robot Learning(IRLab: Alberta), i'm working with <meta name= "Dr MAtt Taylor" http-equiv=refresh content="0;url=/new/index.html"> **Dr. Matt Taylor** on variance reduced gradient applied to convergent actor critic algorithm for high dimensional observations. I have also reproduced many human in the loop RL algorithms(Tamer, Deep Tamer, COACH, Deep COACH).  
 
