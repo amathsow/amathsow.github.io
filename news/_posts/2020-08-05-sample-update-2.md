@@ -25,6 +25,7 @@ _ This method amounts to gathering each ∆θt , computing the sum, and then app
 <p align="center">
   <img src="/assets/images/episodicoach.png" width="350" title="hover text">
 </p>
+
       - Episodic Update
 _ Examining the Eligibility trace , we notice that it can be written as :
 <p align="center">
