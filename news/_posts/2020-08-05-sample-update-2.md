@@ -33,6 +33,6 @@ _ Examining the Eligibility trace , we notice that it can be written as :
 </p>
 _ And also the episodic update as :
 <p align="center">
-  <img src="/assets/images/update.png" width="350" title="hover text">
+  <img src="/assets/images/updaye.png" width="350" title="hover text">
 </p>
  
