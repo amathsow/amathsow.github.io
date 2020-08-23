@@ -26,9 +26,8 @@ Currently, I am doing a program at AMMI: African Master in Machine Intelligence 
 - Coming soon...
 
 ## Projects
----
-title: Human in the Loop Reinforcement Learning framework
----
+
+**Human in the Loop Reinforcement Learning framework: Jully 2020 - Now**
 
 <!---
 ## Teaching
