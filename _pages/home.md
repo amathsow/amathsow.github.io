@@ -9,7 +9,7 @@ description: > # try to keep it the same as _config.yml > description field, whi
   the University of Alberta a member of the Intelligent Robot Learning Laboratory.
 ---
 
-After graduating with a degree in Electronic and Telecommunications Engineering, I worked for 3 years part time  as a 2G and 3G radio engineer at Huawei
+After graduated in Electronic and Telecommunications Engineering, I worked for 3 years part time  as a 3G and 4G radio engineer at Huawei
 Techologies. At the same time, I was involved in entrepreneurship, which allowed me to set up two startups in the field of health (www.karangue.com) and in agriculture (www.bayseddo.com). During this entrepreneurial period I had won a lot of prizes:
 
 _ codecamp emerginov 2016
@@ -20,7 +20,7 @@ _ Startup Acceleration at Nest'up (www.nestup.com) in Belgium
 
 _ vivatech prize Paris(www.vivatechnology.com/) and travel partnership with Orange Sillicon Valley
 
-Currently, I am specialized in artificial intelligence and i'm mostly interested about Reinforcement Learning, autonomous navigation and multi agents system. As member of Intelligent Robot Learning(IRLab: Alberta), i'm working with  **Dr. Matt Taylor** on variance reduced gradient applied to convergent actor critic algorithm for high dimensional observations. I have also reproduced many human in the loop RL algorithms(Tamer, Deep Tamer, COACH, Deep COACH).  
+Currently, I am doing a program at AMMI: African Master in Machine Intelligence sponsored by Google and Facebok and i'm mostly interested about Reinforcement Learning, autonomous navigation and multi agents system. As member of Intelligent Robot Learning(IRLab: Alberta), i'm working with  <a href="https://drmatttaylor.net/"> **Dr. Matt Taylor** </a> **Dr. Matt Taylor** on variance reduced gradient applied to convergent actor critic algorithm which is and HCLR where the human feedback is considered as a reward. The goal is to applyed to high dimensional observations and compare it to others algorithms (Deep Tamer, Deep COACH, etc).
 
 ## Publications
 - Awesome Person. 2020. "How we can survive the global warming." Nature 149.
