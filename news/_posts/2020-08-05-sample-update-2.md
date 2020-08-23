@@ -69,6 +69,7 @@ For our experiments, we use the MountainCar-v0 environment provided by OpenAI gy
  different types of human feedback, i.e.,
  
 _ **Dense feedbacks** Give a positive feedback of +1 only if the action taken is along the current velocity ( i.e., right when the velocity is positive and left when it is negative); −1 otherwise.
+
 _ **Sparse feedbacks** Give zero feedback with probability 0.7, random feedback with probability 0.21 and dense feedback (as defined above) with probability 0.09.
  
      - Real human Experiment
@@ -78,8 +79,11 @@ While the proxy-human experiments discussed above allow us to fairly evaluate th
 ## IV. Results
 
 _ vr-coach, we were able to use up to 10 times the learning rate for policy compared to coach.
+
 _ vr-coach performs better when there is sparsity or inconsistency in feedbacks.
+
 _ vr-coach performs better than coach in such scenarios due to the filtering-like behavior that results from having and updating an explicit critic model.
+
 _ the critic provides a training signal to the actor at each and every timestep, whereas in coach, the agent only receives a training signal when the human
 provides feedback so vrocach also learn faster than coach.
 
