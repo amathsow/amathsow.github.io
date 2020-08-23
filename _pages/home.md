@@ -25,6 +25,8 @@ Currently, I am doing a program at AMMI: African Master in Machine Intelligence 
 ## Publications
 - Coming soon...
 
+---
 ## Teaching
 If you're doing a lecture or a TAship, you may want to list your courses here. See the README file for more information. 
 {% include courses.html %}
+---
