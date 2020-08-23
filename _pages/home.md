@@ -13,8 +13,11 @@ After graduating with a degree in Electronic and Telecommunications Engineering,
 Techologies. At the same time, I was involved in entrepreneurship, which allowed me to set up two startups in the field of health (www.karangue.com) and in agriculture (www.bayseddo.com). During this entrepreneurial period I had won a lot of prizes:
 
 _ codecamp emerginov 2016
+
 _ Orange developper challenge 2017
+
 _ Startup Acceleration at Nest'up (www.nestup.com) in Belgium
+
 _ vivatech prize Paris(https://vivatechnology.com/) and travel partnership with Orange Sillicon Valley
 
 Currently, I am specialized in artificial intelligence and i'm mostly interested about Reinforcement Learning, autonomous navigation and multi agents system. As member of Intelligent Robot Learning(IRLab: Alberta), i'm working with <meta name= "Dr MAtt Taylor" http-equiv=refresh content="0;url=/new/index.html"> **Dr. Matt Taylor** on variance reduced gradient applied to convergent actor critic algorithm for high dimensional observations. I have also reproduced many human in the loop RL algorithms(Tamer, Deep Tamer, COACH, Deep COACH).  
