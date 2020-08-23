@@ -27,7 +27,13 @@ Currently, I am doing a program at AMMI: African Master in Machine Intelligence 
 
 ## Projects
 
-**Human in the Loop Reinforcement Learning framework: Jully 2020 - Now**
+**Human in the Loop Reinforcement Learning framework:** Jully 2020 - Now
+
+In Partnership with Intelligent Robot Learning(https://irll.ca/) i'm working on Building a framework for Human in the Loop algorithm(HCLR) under the supervision of **Dr. Matt Taylor**: Tamer, COACH, Deep Tamer, Deep COACH,... 
+
+**Speech Recognition in Wolof:** June 2020 - Jully 2020
+
+The goal of this project is to collect data in our local language and fine tunea phone classification model. For our case we will be using wolof. Wolof is alanguage of Senegal, the Gambia and Mauritania, and the native language ofthe Wolof people. The successful completion of this project would have been much more difficult, if it wasn't for the generous support, provided by Professor Laurent Besacier, Univ. Grenoble Alpes. Thanks also to the Lig-Aikuma project for providing the platform to record and create this dataset.<a href="https://github.com/amathsow/wolof_speech_recognition"> **link to the project** </a> 
 
 <!---
 ## Teaching
