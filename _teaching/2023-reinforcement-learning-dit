@@ -1,0 +1,29 @@
+---
+title: "Reinforcement Learning course"
+collection: teaching
+type: "Master2 class"
+permalink: /teaching/2023-reinforcement-learning-dit
+venue: "[Dakar Institute of Technology(DIT)](https://dit.sn/)"
+date: 2023-10-01
+location: "Dakar, Senegal"
+---
+
+. Introduction to Reinforcement Learning
+. Marcov Decision Process and Dynamic Programming
+. Model Free Prediction
+. Model Free Control
+. Function approximation in RL
+. Planning and Model-based RL
+. Policy Gradient and Actor-Critic
+. Introduction to Deep RL
+
+
+
+Heading 1
+======
+
+Heading 2
+======
+
+Heading 3
+======

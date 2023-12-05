@@ -1,0 +1,32 @@
+---
+title: "Computer Vision course"
+collection: teaching
+type: "Master1 class"
+permalink: /teaching/2023-computer-vision-dit
+venue: "[Dakar Institute of Technology(DIT)](https://dit.sn/)"
+date: 2023-09-01
+location: "Dakar, Senegal"
+---
+
+. Introduction to Computer Vision
+. Image Filtering , Edge Detection
+. Introduction to Convolutional Neural Networks
+. Pytorch tutorial
+. Classification
+. Object Detection
+. Image Segmentation
+. Semantic Segmentation
+. Instance Segmentation
+. Optical Flow
+. Action Recognition
+
+
+
+Heading 1
+======
+
+Heading 2
+======
+
+Heading 3
+======
