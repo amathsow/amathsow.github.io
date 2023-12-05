@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome!I am a PhD student and teaching assistant at [Linkoping University](https://www.ida.liu.se/research/index.en.shtml).
+Welcome! I am a PhD student and teaching assistant at [Linkoping University](https://www.ida.liu.se/research/index.en.shtml).
 I also have more than 3 years experience working as full stack machine learning
 engineer([check my linkedin](https://www.linkedin.com/in/amathsow/)).
 
@@ -22,10 +22,10 @@ My research interest includes:
    - Reinforcement Learning
    - Multi agents system
    - Planning under uncertainty
-   - meta-heuristique optimization techniques
-   - deep learning
-   - robotics
+   - Meta-heuristique optimization techniques
+   - Deep learning
+   - Robotics
 
-Currently, i'm working on Dynamic multi UAVs route planning under uncertainty and constraints,
+Currently, I'm working on Dynamic multi UAVs route planning under uncertainty and constraints,
 under the supervision of [Professor Fredrik Heintz](https://liu.se/en/employee/frehe08) and
 [Daniel de Leng](https://liu.se/en/employee/dande27)
