@@ -5,8 +5,13 @@ type: "Master2 class"
 permalink: /teaching/2023-reinforcement-learning-dit
 venue: "Dakar Institute of Technology(DIT)"
 date: 2023-10-01
+date_end: 2024-10-01
 location: "Dakar, Senegal"
 ---
+
+Taught a comprehensive Master's level course covering fundamental concepts and advanced techniques in reinforcement learning. The course included theoretical foundations of Markov Decision Processes (MDPs), value-based methods (Q-learning, DQN), policy-based methods (REINFORCE, Actor-Critic), and deep reinforcement learning algorithms. Students gained hands-on experience implementing RL algorithms using TensorFlow and PyTorch, working on classic environments like CartPole and MountainCar, as well as more complex tasks. The course emphasized both theoretical understanding and practical implementation skills, preparing students for research and industry applications in autonomous systems, robotics, and intelligent decision-making.
+
+## Course Topics
 
 . Introduction to Reinforcement Learning
 . Marcov Decision Process and Dynamic Programming

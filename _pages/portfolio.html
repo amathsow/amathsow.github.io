@@ -1,14 +1,63 @@
 ---
-layout: archive
-title: "Portfolio"
+layout: single
+title: "Research"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+My research focuses on developing efficient algorithms and frameworks for coordinating large teams of autonomous agents in dynamic and uncertain environments. Applications include multi-UAV traffic management, warehouse robotics, and intelligent multi-agent systems.
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<h2>Multi-Agent Path Planning</h2>
+
+<div style="display: flex; align-items: flex-start; gap: 1.5em; margin: 1.5em 0;">
+  <div style="flex: 0 0 150px;">
+    <a href="/portfolio/mapf/">
+      <img src="/videos/large_warehouse.gif" alt="MAPF" style="width: 100%; border-radius: 8px; display: block; cursor: pointer;">
+    </a>
+  </div>
+  <div style="flex: 1;">
+    <p>Our interest here focuses on efficient and effective algorithms to solve challenging Multi-Agent Path Finding (MAPF) problems via a variety of AI and optimization technologies. We are particularly interested in scalable path planning algorithms that can handle hundreds to thousands of agents while considering temporal constraints, dynamic obstacles, and heterogeneous agent capabilities.</p>
+  </div>
+</div>
+
+<h2>Multi-UAV Coordination in UTM</h2>
+
+<div style="display: flex; align-items: flex-start; gap: 1.5em; margin: 1.5em 0;">
+  <div style="flex: 0 0 150px;">
+    <a href="/portfolio/uav-utm/">
+      <img src="/videos/liu_nfz.gif" alt="UAV Coordination" style="width: 100%; border-radius: 8px; display: block; cursor: pointer;">
+    </a>
+  </div>
+  <div style="flex: 1;">
+    <p>We are interested in addressing the challenges of coordinating large-scale Unmanned Aerial Vehicle (UAV) fleets in shared and dynamic airspace. Our research focuses on preflight planning systems that handle temporal No-Fly Zones (NFZs), heterogeneous vehicle profiles, and strict delivery deadlines for urban air mobility applications.</p>
+  </div>
+</div>
+
+<h2>Learning-based Multi-Agent Planning</h2>
+
+<div style="display: flex; align-items: flex-start; gap: 1.5em; margin: 1.5em 0;">
+  <div style="flex: 0 0 150px;">
+    <a href="/portfolio/learning-based/">
+      <img src="/videos/large_warehouse.gif" alt="Learning-based Planning" style="width: 100%; border-radius: 8px; display: block; cursor: pointer;">
+    </a>
+  </div>
+  <div style="flex: 1;">
+    <p>We are interested in learning-based approaches for coordinating teams of agents in complex environments. Our focus includes combining various machine learning techniques such as Bayesian learning, reinforcement learning, large language models (LLMs), diffusion models, and flow matching with classical planning methods to achieve scalable and robust multi-agent coordination.</p>
+  </div>
+</div>
+
+<h2>Side Projects</h2>
+
+<div style="display: flex; align-items: flex-start; gap: 1.5em; margin: 1.5em 0;">
+  <div style="flex: 0 0 150px;">
+    <a href="/portfolio/side-projects/">
+      <img src="/videos/random.gif" alt="Side Projects" style="width: 100%; border-radius: 8px; display: block; cursor: pointer;">
+    </a>
+  </div>
+  <div style="flex: 1;">
+    <p>I contribute to various projects spanning different domains and applications. These projects showcase my diverse interests and collaborative work across multiple research areas.</p>
+  </div>
+</div>
 

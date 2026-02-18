@@ -7,6 +7,38 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<h2>Linköping University</h2>
+
+<ul>
+{% assign liu_teaching = site.teaching | where: "venue", "Linköping University" | sort: "date" | reverse %}
+{% for post in liu_teaching %}
+  <li>
+    <strong><a href="{% if post.link %}{{ post.link }}{% else %}{{ base_path }}{{ post.url }}{% endif %}">{{ post.title }}</a></strong> ({{ post.type }}), {% if post.date_end %}{{ post.date | date: "%Y" }}-{{ post.date_end | date: "%Y" }}{% else %}{{ post.date | date: "%Y" }}{% endif %}
+    <br>
+    {% if post.excerpt %}
+      {{ post.excerpt | markdownify | strip_html }}
+    {% else %}
+      {% assign content_parts = post.content | split: '##' %}
+      {{ content_parts[0] | markdownify | strip_html }}
+    {% endif %}
+  </li>
 {% endfor %}
+</ul>
+
+<h2>Dakar Institute of Technology (DIT)</h2>
+
+<ul>
+{% assign dit_teaching = site.teaching | where: "venue", "Dakar Institute of Technology(DIT)" | sort: "date" | reverse %}
+{% for post in dit_teaching %}
+  <li>
+    <strong><a href="{% if post.link %}{{ post.link }}{% else %}{{ base_path }}{{ post.url }}{% endif %}">{{ post.title }}</a></strong> ({{ post.type }}), {% if post.date_end %}{{ post.date | date: "%Y" }}-{{ post.date_end | date: "%Y" }}{% else %}{{ post.date | date: "%Y" }}{% endif %}
+    <br>
+    {% if post.excerpt %}
+      {{ post.excerpt | markdownify | strip_html }}
+    {% else %}
+      {% assign content_parts = post.content | split: '##' %}
+      {{ content_parts[0] | markdownify | strip_html }}
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>

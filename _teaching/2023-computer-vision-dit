@@ -8,6 +8,10 @@ date: 2023-09-01
 location: "Dakar, Senegal"
 ---
 
+Designed and delivered a Master's level course on computer vision covering fundamental image processing techniques and state-of-the-art deep learning methods. The curriculum included image filtering and edge detection, introduction to Convolutional Neural Networks (CNNs), PyTorch tutorials, image classification, object detection, image segmentation (semantic and instance segmentation), optical flow, and action recognition. Students learned to implement and train deep learning models for various computer vision tasks, gaining practical experience with modern frameworks and datasets. The course combined theoretical foundations with hands-on projects, enabling students to develop real-world computer vision applications.
+
+## Course Topics
+
 . Introduction to Computer Vision
 . Image Filtering , Edge Detection
 . Introduction to Convolutional Neural Networks

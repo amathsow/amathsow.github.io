@@ -1,0 +1,26 @@
+{% include base_path %}
+
+<span style="line-height: 1.1; display: block; margin: 0; padding: 0;">
+  {% if post.title %}
+    {% if post.paperurl %}
+      <strong><a href="{{ post.paperurl }}">{{ post.title }}</a>.</strong>
+    {% else %}
+      <strong>{{ post.title }}.</strong>
+    {% endif %}
+  {% endif %}<br style="line-height: 1.1; margin: 0; padding: 0;">
+  {% if post.authors %}
+    {{ post.authors | markdownify }}<br style="line-height: 1.1; margin: 0; padding: 0;">
+  {% endif %}
+  {% if post.venue %}
+    <i>{{ post.venue }}</i>{% if post.pages %}, {{ post.pages }}{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.<br style="line-height: 1.1; margin: 0; padding: 0;">
+  {% endif %}
+  {% if post.bibtex or post.arxiv or post.code or post.publisher or post.pdf %}
+    <br>{% if post.bibtex %}[<a href="{{ post.bibtex }}">bibtex</a>] {% endif %}
+    {% if post.arxiv %}[<a href="{{ post.arxiv }}">arXiv</a>] {% endif %}
+    {% if post.code %}[<a href="{{ post.code }}">code</a>] {% endif %}
+    {% if post.publisher %}[<a href="{{ post.publisher }}">publisher</a>] {% endif %}
+    {% if post.pdf %}[<a href="{{ post.pdf }}">pdf</a>] {% endif %}
+  {% elsif post.paperurl %}
+    <br>[<a href="{{ post.paperurl }}">paper</a>]
+  {% endif %}
+</span>

@@ -8,24 +8,37 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a PhD student and teaching assistant at [Linkoping University](https://www.ida.liu.se/research/index.en.shtml).
-I also have more than 3 years experience working as full stack machine learning
-engineer([check my linkedin](https://www.linkedin.com/in/amathsow/)).
+<div style="display: flex; flex-wrap: wrap; gap: 1em; margin-bottom: 2em; justify-content: center; align-items: stretch;">
+  <div style="flex: 1 1 calc(33.333% - 1em); min-width: 200px; max-width: 350px; height: 300px; overflow: hidden; display: flex; align-items: center;">
+    <img src="/videos/random.gif" alt="Random" style="width: 100%; height: 100%; border-radius: 8px; display: block; object-fit: cover;">
+  </div>
+  <div style="flex: 1 1 calc(33.333% - 1em); min-width: 200px; max-width: 350px; height: 300px; overflow: hidden; display: flex; align-items: center;">
+    <img src="/videos/large_warehouse.gif" alt="Large Warehouse" style="width: 100%; height: 100%; border-radius: 8px; display: block; object-fit: cover;">
+  </div>
+  <div style="flex: 1 1 calc(33.333% - 1em); min-width: 200px; max-width: 350px; height: 300px; overflow: hidden; display: flex; align-items: center;">
+    <img src="/videos/liu_nfz.gif" alt="LIU NFZ" style="width: 100%; height: 100%; border-radius: 8px; display: block; object-fit: cover;">
+  </div>
+</div>
 
-I hold a bachelor degree in Maths, Physiscs and computer science and an
-engineering degree in electronics and telecommunication at [Gaston Berger University](https://ugb.sn/).
+I am a PhD student and teaching assistant at [Linköping University](https://www.ida.liu.se/research/index.en.shtml) in the [Reasoning and Learning Lab (ReaL)](https://www.ida.liu.se/research/index.en.shtml), advised by [Professor Fredrik Heintz](https://liu.se/en/employee/frehe08). I also have more than 3 years of experience working as a full stack machine learning engineer, with expertise in developing end-to-end ML systems and deploying scalable solutions.
 
-Beside that, I also hold another MSc from the [African Master in Machine Intelligence](http://aimsammi.org)
-(AMMI) (University of Ghana) sponsored by Google and Facebook.
+I hold a bachelor degree in Mathematics, Physics and Computer Science and an engineering degree in Electronics and Telecommunication from [Gaston Berger University](https://ugb.sn/), Senegal. I also hold an MSc from the [African Master in Machine Intelligence](http://aimsammi.org) (AMMI) at the University of Ghana, sponsored by Google and Facebook. My academic journey has provided me with a strong foundation in both theoretical and applied aspects of computer science, mathematics, and machine learning.
 
-My research interest includes:
-   - Reinforcement Learning
-   - Multi agents system
-   - Planning under uncertainty
-   - Meta-heuristique optimization techniques
-   - Deep learning
-   - Robotics
+## Research Interests
 
-Currently, I'm working on Dynamic multi UAVs route planning under uncertainty and constraints,
-under the supervision of [Professor Fredrik Heintz](https://liu.se/en/employee/frehe08) and
-[Daniel de Leng](https://liu.se/en/employee/dande27)
+My research interests include:
+- Reinforcement Learning
+- Multi-agent systems
+- Planning under uncertainty
+- Meta-heuristic optimization techniques
+- Deep learning
+- Robotics
+
+
+* Check out my **research projects** [here](/portfolio/).
+* Check out my **publications** [here](/publications/).
+* Check out my **CV** [here](/cv/).
+
+## News
+
+* \[2026/02\] Paper on [Multi UAVs Preflight Planning in a Shared and Dynamic Airspace](/publication/2026-02-01-4d-uav-traffic-management) accepted to AAMAS-26.
