@@ -22,7 +22,7 @@ redirect_from:
 
 I am a PhD student and teaching assistant at [Linköping University](https://www.ida.liu.se/research/index.en.shtml) in the [Reasoning and Learning Lab (ReaL)](https://www.ida.liu.se/research/index.en.shtml), advised by [Professor Fredrik Heintz](https://liu.se/en/employee/frehe08). I also have more than 3 years of experience working as a full stack machine learning engineer, with expertise in developing end-to-end ML systems and deploying scalable solutions.
 
-I hold a bachelor degree in Mathematics, Physics and Computer Science and an engineering degree in Electronics and Telecommunication from [Gaston Berger University](https://ugb.sn/), Senegal. I also hold an MSc from the [African Master in Machine Intelligence](http://aimsammi.org) (AMMI) at the University of Ghana, sponsored by Google and Facebook. My academic journey has provided me with a strong foundation in both theoretical and applied aspects of computer science, mathematics, and machine learning.
+I hold a bachelor degree in Mathematics, Physics and Computer Science and an engineering degree in Electronics and Telecommunication from [Gaston Berger University](https://ugb.sn/), Senegal. I also hold an MSc from the [African Master in Machine Intelligence](http://aimsammi.org) (AMMI) at the University of Ghana, sponsored by Google and Facebook. 
 
 ## Research Interests
 
